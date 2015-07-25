@@ -74,7 +74,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <span>Home</span>
               </a>
 
-              <a data-route="users" href="/users">
+              <a data-route="about" href="/about">
                 <iron-icon icon="info"></iron-icon>
                 <span>About</span>
               </a>
@@ -142,11 +142,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             </section>
 
-            <section data-route="users">
+            <section data-route="about">
               <paper-material elevation="1">
                 <h2 class="paper-font-display2">About</h2>
                 <p>This is the about section</p>
-                <a href="/users/Rob">Rob</a>
+                <a href="/about/Rob">Rob</a>
               </paper-material>
             </section>
 
