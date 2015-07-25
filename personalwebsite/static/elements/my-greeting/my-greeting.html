@@ -21,24 +21,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     }
   </style>
   <template>
-    <h1 class="paper-font-display1"><span>{{greeting}}</span></h1>
-    <span class="paper-font-body2">Update text to change the greeting.</span>
-    <!-- Listens for "input" event and sets greeting to <input>.value -->
-    <input class="paper-font-body2" value="{{greeting::input}}">
+    <h1 class="paper-font-display1"><span>Welcome</span></h1>
+    <p>Hi</p>
   </template>
 </dom-module>
-<script>
-  (function() {
-    Polymer({
-      is: 'my-greeting',
-
-      properties: {
-        greeting: {
-          type: String,
-          value: 'Welcome!',
-          notify: true
-        }
-      }
-    });
-  })();
-</script>

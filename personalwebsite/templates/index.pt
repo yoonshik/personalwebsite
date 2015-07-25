@@ -75,8 +75,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               </a>
 
               <a data-route="about" href="/about">
-                <iron-icon icon="info"></iron-icon>
+                <iron-icon icon="account-circle"></iron-icon>
                 <span>About</span>
+              </a>
+
+              <a data-route="projects" href="/projects">
+                <iron-icon icon="hardware:laptop-mac"></iron-icon>
+                <span>Projects</span>
+              </a>
+
+              <a data-route="music" href="/music">
+                <iron-icon icon="hardware:headset"></iron-icon>
+                <span>Music</span>
+              </a>
+
+              <a data-route="inspire" href="/inspire">
+                <iron-icon icon="social:whatshot"></iron-icon>
+                <span>Inspire</span>
               </a>
 
               <a data-route="contact" href="/contact">
@@ -85,7 +100,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               </a>
           </paper-menu>
       </div>
-      <paper-header-panel main mode="waterfall-tall">
+      <paper-header-panel main mode="standard">
 
         <!-- Main Toolbar -->
         <paper-toolbar id="mainToolbar">
@@ -110,23 +125,38 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             <section data-route="home">
               <paper-material elevation="1">
-                <my-greeting></my-greeting>
-
-              </paper-material>
-              <paper-material elevation="1">
-                <p class="paper-font-body2">This is another card.</p>
+		<h2 class="paper-font-display1">Welcome!</h2>
+		<p class="paper-font-body1">Here is a website I'm making for fun because I can't seem to think of an idea more original than the commonplace 'personal website.' This site is still under construction, and I'm building it with Google's Polymer and Pyramid which are tools I've learned at my internship at ViaSat.</p>
               </paper-material>
 
-              <paper-material elevation="1" class="paper-font-body2">
-              </paper-material>
 
             </section>
 
             <section data-route="about">
               <paper-material elevation="1">
-                <h2 class="paper-font-display2">About</h2>
-                <p>This is the about section</p>
-                <a href="/about/Rob">Rob</a>
+                <h2 class="paper-font-display1">About me</h2>
+		<p class="paper-font-body1">I am a software engineer and a musician, currently studying Computer Science and Clarinet Performance at University of Maryland. This website will serve as a portfolio of my personal software projects and various musical activities.</p>
+              </paper-material>
+            </section>
+
+            <section data-route="projects">
+              <paper-material elevation="1">
+                <h2 class="paper-font-display1">Projects</h2>
+		<p class="paper-font-body1">Coming soon</p>
+              </paper-material>
+            </section>
+
+            <section data-route="music">
+              <paper-material elevation="1">
+                <h2 class="paper-font-display1">Music</h2>
+		<p class="paper-font-body1">Coming soon</p>
+              </paper-material>
+            </section>
+
+            <section data-route="inspire">
+              <paper-material elevation="1">
+                <h2 class="paper-font-display1">Inspire</h2>
+		<p class="paper-font-body1">Coming soon</p>
               </paper-material>
             </section>
 
@@ -135,14 +165,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <h2 class="paper-font-display2">
                 User:<span>{{params.name}}</span>
                 </h2>
-                <div>This is <span>{{params.name}}</span>'s section</div>
+		<p class="paper-font-body1">Coming soon</p>
               </paper-material>
             </section>
 
             <section data-route="contact">
               <paper-material elevation="1">
-                <h2 class="paper-font-display2">Contact</h2>
-                <p>This is the contact section</p>
+                <h2 class="paper-font-display1">Contact</h2>
+		<p class="paper-font-body1">Coming soon</p>
               </paper-material>
             </section>
 
