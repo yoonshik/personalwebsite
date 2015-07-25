@@ -126,7 +126,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <section data-route="home">
               <paper-material elevation="1">
 		<h2 class="paper-font-display1">Welcome!</h2>
-		<p class="paper-font-body1">Here is a website I'm making for fun because I can't seem to think of an idea more original than the commonplace 'personal website.' This site is still under construction, and I'm building it with Google's Polymer and Pyramid which are tools I've learned at my internship at ViaSat.</p>
+		<p class="paper-font-body1">Here is a website I'm making for fun because I can't seem to think of an idea more original than the commonplace 'personal website.' This site is still under construction, and I'm building it with the Pyramid web framework and Google's Polymer which are tools I've learned at my internship at ViaSat.</p>
               </paper-material>
 
 
