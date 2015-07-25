@@ -76,7 +76,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
               <a data-route="users" href="/users">
                 <iron-icon icon="info"></iron-icon>
-                <span>Users</span>
+                <span>About</span>
               </a>
 
               <a data-route="contact" href="/contact">
@@ -97,7 +97,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <paper-icon-button icon="search"></paper-icon-button>
 
           <!-- Application name -->
-          <div class="middle paper-font-display2 app-name">Yoonshik</div>
+          <div class="middle paper-font-display2 app-name">Yoonshik Hong</div>
 
           <!-- Application sub title -->
           <div class="bottom title"></div>
@@ -144,8 +144,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             <section data-route="users">
               <paper-material elevation="1">
-                <h2 class="paper-font-display2">Users</h2>
-                <p>This is the users section</p>
+                <h2 class="paper-font-display2">About</h2>
+                <p>This is the about section</p>
                 <a href="/users/Rob">Rob</a>
               </paper-material>
             </section>
