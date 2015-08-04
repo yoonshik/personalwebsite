@@ -91,6 +91,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <span>Music</span>
               </a>
 
+              <a data-route="polymer" href="/polymer">
+                <iron-icon icon="polymer"></iron-icon>
+                <span>Polymer</span>
+              </a>
+
               <a data-route="inspire" href="/inspire">
                 <iron-icon icon="social:whatshot"></iron-icon>
                 <span>Inspire</span>
@@ -158,6 +163,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <section data-route="inspire">
               <paper-material elevation="1">
                 <h2 class="paper-font-display1">Inspire</h2>
+		<p class="paper-font-body1">Coming soon</p>
+              </paper-material>
+            </section>
+
+            <section data-route="polymer">
+              <paper-material elevation="1">
+                <h2 class="paper-font-display1">Polymer</h2>
 		<p class="paper-font-body1">Coming soon</p>
               </paper-material>
             </section>
