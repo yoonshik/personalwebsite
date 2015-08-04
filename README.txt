@@ -1,9 +1,11 @@
 Personal website
 
-#TODO think of what to do with the refresh and search buttons. maybe a 'Next' button to toggle you to the next page? and 'Previous'? 
+#TODO populate projects
+
 #TODO think about how to populate projects/music without hardcoding it into the html file. there must be a way to populate the html using some python
 
-#TODO populate projects
+#TODO think of what to do with the refresh and search buttons. maybe a 'Next' button to toggle you to the next page? and 'Previous'? 
+
 #TODO populate music
 #TODO populate inspire
 
