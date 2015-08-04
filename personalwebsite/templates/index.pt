@@ -53,6 +53,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <!-- will be replaced with elements/elements.vulcanized.html -->
   <link rel="import" href="${request.static_url('personalwebsite:static/elements/elements.html')}">
   <!-- endreplace-->
+
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 </head>
 
 <body unresolved class="fullbleed layout vertical">
@@ -112,7 +114,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <paper-icon-button icon="search"></paper-icon-button>
 
           <!-- Application name -->
-          <div class="middle paper-font-display2 app-name">Yoonshik Hong</div>
+          <div class="middle paper-font-display3 app-name">Yoonshik Hong</div>
 
           <!-- Application sub title -->
           <div class="bottom title"></div>
@@ -126,7 +128,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <section data-route="home">
               <paper-material elevation="1">
 		<h2 class="paper-font-display1">Welcome!</h2>
-		<p class="paper-font-body1">Here is a website I'm making for fun because I can't seem to think of an idea more original than the commonplace 'personal website.' This site is still under construction, and I'm building it with the Pyramid web framework and Google's Polymer which are tools I've learned at my internship at ViaSat.</p>
+		<p class="paper-font-body1">Here is a my website where I will showcase my personal projects and other various interests that I have.</p>
               </paper-material>
 
 
@@ -135,7 +137,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <section data-route="about">
               <paper-material elevation="1">
                 <h2 class="paper-font-display1">About me</h2>
-		<p class="paper-font-body1">I am a software engineer and a musician, currently studying Computer Science and Clarinet Performance at University of Maryland. This website will serve as a portfolio of my personal software projects and various musical activities.</p>
+		<p class="paper-font-body1">I am a software engineer currently studying Computer Science and Clarinet Performance at University of Maryland. I work on software projects at hackathons and in my courses, and I play the clarinet in the UMD School of Music where I study with Paul Cigan.</p>
               </paper-material>
             </section>
 
