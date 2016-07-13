@@ -62,46 +62,45 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <template is="dom-bind" id="app">
 
     <paper-drawer-panel id="paperDrawerPanel">
-      <div drawer>
-
+      <paper-header-panel drawer>
         <!-- Drawer Toolbar -->
         <paper-toolbar id="drawerToolbar">
           <span class="paper-font-title">Menu</span>
         </paper-toolbar>
 
         <!-- Drawer Content -->
-          <paper-menu class="list" attr-for-selected="data-route" selected="{{route}}" on-iron-select="onMenuSelect">
-              <a data-route="home" href="/">
-                <iron-icon icon="home"></iron-icon>
-                <span>Home</span>
-              </a>
+	      <paper-menu class="list" attr-for-selected="data-route" selected="{{route}}" on-iron-select="onMenuSelect">
+	        <a data-route="home" href="/">
+	          <iron-icon icon="home"></iron-icon>
+	          <span>Home</span>
+            </a>
 
-              <a data-route="about" href="/about">
-                <iron-icon icon="account-circle"></iron-icon>
-                <span>About</span>
-              </a>
+            <a data-route="about" href="/about">
+	          <iron-icon icon="account-circle"></iron-icon>
+	          <span>About</span>
+	        </a>
 
-              <a data-route="projects" href="/projects">
-                <iron-icon icon="hardware:laptop-mac"></iron-icon>
-                <span>Projects</span>
-              </a>
+	        <a data-route="projects" href="/projects">
+	          <iron-icon icon="hardware:laptop-mac"></iron-icon>
+	          <span>Projects</span>
+	        </a>
 
-              <a data-route="music" href="/music">
-                <iron-icon icon="hardware:headset"></iron-icon>
-                <span>Music</span>
-              </a>
+	        <a data-route="music" href="/music">
+	          <iron-icon icon="hardware:headset"></iron-icon>
+	          <span>Music</span>
+	        </a>
 
-              <a data-route="inspire" href="/inspire">
-                <iron-icon icon="social:whatshot"></iron-icon>
-                <span>Inspire</span>
-              </a>
+	        <a data-route="inspire" href="/inspire">
+	          <iron-icon icon="social:whatshot"></iron-icon>
+	          <span>Inspire</span>
+	        </a>
 
-              <a data-route="contact" href="/contact">
-                <iron-icon icon="mail"></iron-icon>
-                <span>Contact</span>
-              </a>
-          </paper-menu>
-      </div>
+	        <a data-route="contact" href="/contact">
+	          <iron-icon icon="mail"></iron-icon>
+	          <span>Contact</span>
+	        </a>
+	      </paper-menu>
+      </paper-header-panel>
       <paper-header-panel main mode="standard">
 
         <!-- Main Toolbar -->
